@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 alias gp='git add . && git commit -m "auto push" && git push'
+# 提提交失败后再次推送
 alias pp='git push'
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias zrc='vim ~/.zshrc'
