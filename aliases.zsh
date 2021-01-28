@@ -31,8 +31,9 @@ alias h='htop'
 # e -> exit
 alias e='exit'
 alias q='exit'
-# f -> tmux at
-alias f='tmux at'
+# ta -> tmux at
+alias ta='tmux at'
+alias ts='tmux'
 # ranger
 alias r='ranger'
 # archey
