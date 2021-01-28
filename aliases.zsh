@@ -19,10 +19,9 @@ alias st='/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
 alias vs='/Applications/vsCode.app/Contents/Resources/app/bin/code'
 
 
-# nvim = vim
-alias vi='vim'
-alias vim='~/.nvim/bin/nvim'
-# alias vim='nvim'
+# nvim
+alias vim='nvim'
+alias v='nvim'
 
 
 # c -> clear

@@ -13,6 +13,10 @@ GRADLE_HOME=/opt/gradle-6.6.1
 PATH=$PATH:$GRADLE_HOME/bin
 export GRADLE_HOME GRADLE_USER_HOME PATH
 
+export EDITOR='nvim'
+
+
+
 
 # ------------------------------------- fzf --------------------------------------------------
 
