@@ -1,5 +1,10 @@
 #!/usr/bin/env zsh
 
+# Path to your oh-my-zsh installation.
+
+export ZSH=~/.oh-my-zsh
+
+
 
 plugins=(
         git
@@ -8,14 +13,14 @@ plugins=(
         zsh-autosuggestions
         # sublime
         vi-mode
-        # tmux
+        tmux
         thefuck
         osx
         )
 
 
 
-source ~/.oh-my-zsh/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
 source ~/.config/zsh/env.zsh
 source ~/.config/zsh/fzf.zsh

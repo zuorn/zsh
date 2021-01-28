@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 alias gp='git add . && git commit -m "auto push" && git push'
+
 # 提提交失败后再次推送
 alias pp='git push'
 alias ohmyzsh="vim ~/.oh-my-zsh"
@@ -31,9 +32,11 @@ alias h='htop'
 # e -> exit
 alias e='exit'
 alias q='exit'
+
 # ta -> tmux at
-alias ta='tmux at'
-alias ts='tmux'
+# alias ta='tmux at'
+# alias ts='tmux'
+
 # ranger
 alias r='ranger'
 # archey
