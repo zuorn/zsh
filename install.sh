@@ -4,7 +4,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 rm -rf ~/.zshrc
 
-git clone https://github.com/zuorn/zsh ~/.config
+git clone https://github.com/zuorn/zsh ~/.config/zsh
 
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
