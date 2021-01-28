@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 # 安装
+
 # mac
 # brew install romkatv/powerlevel10k/powerlevel10k
 # arch
