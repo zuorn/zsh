@@ -13,6 +13,8 @@ plugins=(
         osx
         )
 
+# ZSH_THEME
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
 source ~/.oh-my-zsh/oh-my-zsh.sh
