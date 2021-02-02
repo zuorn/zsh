@@ -1,15 +1,40 @@
 #!/usr/bin/env zsh
 
+
+# temporary
+alias ttn='mv ~/.config/nvim ~/.config/spacevim && mv ~/.config/nvim-test ~/.config/nvim && echo "switch to: nvim"'
+alias tts='mv ~/.config/nvim ~/.config/nvim-test && mv ~/.config/spacevim ~/.config/nvim && echo "switch to: spacevim"'
+
 alias gp='git add . && git commit -m "auto push" && git push'
 
 # 提提交失败后再次推送
 alias pp='git push'
 alias ohmyzsh="vim ~/.oh-my-zsh"
+
+# zshrc
 alias zrc='vim ~/.zshrc'
 alias zsource='source ~/.zshrc'
+
+# figlet
+alias fl='figlet'
+
+# ls
 alias a='ls -a'
 alias cp='cp -r'
 
+# docker
+alias di='docker images'
+alias dp='docker ps'
+alias dpa='docker ps -a'
+alias dr='docker rm'
+alias drmi='docker rmi'
+alias drun='docker run'
+alias de='docker exec -it'
+# lazydocker
+alias lzd='lazydocker'
+
+# brew
+alias bl='brew list'
 
 # the fuck
 eval $(thefuck --alias)
@@ -34,8 +59,9 @@ alias e='exit'
 alias q='exit'
 
 # ta -> tmux at
-# alias ta='tmux at'
-# alias ts='tmux'
+alias ta='tmux at'
+alias ts='tmux'
+alias tk='tmux sever'
 
 # ranger
 alias r='ranger'
