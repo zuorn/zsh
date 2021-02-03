@@ -1,9 +1,6 @@
 # zshconfig
 
 
-
-<p align="center"><img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh"></p>
-
 ## 安装
 
 - curl
@@ -24,8 +21,10 @@
     sh -c "$(fetch -o - https://raw.githubusercontent.com/zuorn/zsh/master/install.sh)"
     ```
     
-## 使用
+[##](##) 使用
+
 ### 插件
+
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [tmux](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/tmux/README.md)
