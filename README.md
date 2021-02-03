@@ -1,4 +1,4 @@
-# zshconfig
+# [MyZsh](MyZsh)
 
 
 ## 安装
