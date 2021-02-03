@@ -21,7 +21,7 @@
     sh -c "$(fetch -o - https://raw.githubusercontent.com/zuorn/zsh/master/install.sh)"
     ```
     
-[##](##) 使用
+## 使用
 
 ### 插件
 
