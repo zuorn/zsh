@@ -1,14 +1,8 @@
 #!/usr/bin/env zsh
 
-# 安装
+# source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
-# mac
-# brew install romkatv/powerlevel10k/powerlevel10k
-# arch
-# yay -S --noconfirm zsh-theme-powerlevel10k-git
-
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
-
+source ~/.config/zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
