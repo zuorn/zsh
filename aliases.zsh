@@ -5,11 +5,6 @@
 # alias ttn='mv ~/.config/nvim ~/.config/spacevim && mv ~/.config/nvim-test ~/.config/nvim && echo "switch to: ZornVim"'
 # alias tts='mv ~/.config/nvim ~/.config/nvim-test && mv ~/.config/spacevim ~/.config/nvim && echo "switch to: SpaceVim"'
 
-alias gp='git add . && git commit -m "auto push" && git push'
-
-# 提提交失败后再次推送
-alias pp='git push'
-alias ohmyzsh="vim ~/.oh-my-zsh"
 
 # zshrc
 alias zrc='vim ~/.zshrc'
@@ -26,10 +21,17 @@ alias cp='cp -r'
 
 
 # git
+
+# push
+alias pp='git push'
+# add & commit & push
+alias gp='git add . && git commit -m "auto push" && git push'
+# git pull
+alias pull='git pull'
+# lazygit
 alias lg='lazygit'
 
 # docker
-
 alias di='docker images'
 alias dp='docker ps'
 alias dpa='docker ps -a'
@@ -42,6 +44,9 @@ alias lzd='lazydocker'
 
 # brew
 alias bl='brew list'
+alias bi='brew install'
+alias bu='brew uninstall'
+alias br='brew reinstall'
 
 # the fuck
 eval $(thefuck --alias)
@@ -61,14 +66,15 @@ alias v='nvim'
 alias c='clear'
 # h -> htop
 alias h='htop'
-# e -> exit
+# e & q -> exit
 alias e='exit'
 alias q='exit'
 
 # ta -> tmux at
 alias ta='tmux at'
 alias ts='tmux'
-alias tk='tmux sever'
+# alias tk='tmux sever'
+alias tks='tmux kill-server'
 
 # ranger
 alias r='ranger'
@@ -77,10 +83,12 @@ alias ar='archey'
 # tree
 alias t='tree'
 # ccat
-alias catt='cat'
+# alias ocat='cat'
 alias cat='ccat'
 alias b='bat'
 
+
+# pip
 
 # pip3 -> pip
 alias pip='pip3'
