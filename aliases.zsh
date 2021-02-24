@@ -2,8 +2,8 @@
 
 
 # temporary
-alias ttn='mv ~/.config/nvim ~/.config/spacevim && mv ~/.config/nvim-test ~/.config/nvim && echo "switch to: nvim"'
-alias tts='mv ~/.config/nvim ~/.config/nvim-test && mv ~/.config/spacevim ~/.config/nvim && echo "switch to: spacevim"'
+# alias ttn='mv ~/.config/nvim ~/.config/spacevim && mv ~/.config/nvim-test ~/.config/nvim && echo "switch to: ZornVim"'
+# alias tts='mv ~/.config/nvim ~/.config/nvim-test && mv ~/.config/spacevim ~/.config/nvim && echo "switch to: SpaceVim"'
 
 alias gp='git add . && git commit -m "auto push" && git push'
 
@@ -20,9 +20,16 @@ alias fl='figlet'
 
 # ls
 alias a='ls -a'
+
+# cp
 alias cp='cp -r'
 
+
+# git
+alias lg='lazygit'
+
 # docker
+
 alias di='docker images'
 alias dp='docker ps'
 alias dpa='docker ps -a'

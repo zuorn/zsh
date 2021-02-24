@@ -1,6 +1,5 @@
 # [MyZsh](MyZsh)
 
-
                                    __  __       _____    _
                                   |  \/  |_   _|__  /___| |__
                                   | |\/| | | | | / // __| '_ \
@@ -8,27 +7,26 @@
                                   |_|  |_|\__, /____|___/_| |_|
                                           |___/
 
-
 ## 安装
 
 - curl
 
-    ```
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/zuorn/zsh/master/install.sh)"
-    ```
+  ```
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/zuorn/zsh/master/install.sh)"
+  ```
 
 - wget
 
-    ```
-    sh -c "$(wget -O- https://raw.githubusercontent.com/zuorn/zsh/master/install.sh)"
-    ```
+  ```
+  sh -c "$(wget -O- https://raw.githubusercontent.com/zuorn/zsh/master/install.sh)"
+  ```
 
 - fetch
 
-    ```
-    sh -c "$(fetch -o - https://raw.githubusercontent.com/zuorn/zsh/master/install.sh)"
-    ```
-    
+  ```
+  sh -c "$(fetch -o - https://raw.githubusercontent.com/zuorn/zsh/master/install.sh)"
+  ```
+
 ## 使用
 
 ### 插件
@@ -43,8 +41,6 @@
 - [thefuck](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/thefuck/README.md)
 - [osx](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/osx/README.md)
 
-
 ### 主题
 
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-
